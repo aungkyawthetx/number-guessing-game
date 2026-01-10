@@ -73,7 +73,7 @@
         <?php if(isset($_SESSION['secret_number'])): ?>
             <form class="game-form" action="index.php" method="POST">
                 <label for="guess"> Enter your guess (1 - 10) </label>
-                <input type="number" id="guess" name="guess" min="1" max="10" placeholder="?" required>
+                <input type="number" id="guess" name="guess" min="1" max="10" placeholder="?" required autofocus>
                 <button type="submit" class="game-button" name="btn-guess">
                     Guess
                 </button>
