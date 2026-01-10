@@ -60,7 +60,6 @@
 <body>
     <div class="game-card">
         <h1>GUESSONITT</h1>
-
             <p> <?= $new_game ?> </p>
         
         <?php if($feedback_class != ""): ?>
